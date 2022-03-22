@@ -12,7 +12,7 @@ class EventReceiverMockitoChanges(val metricRecorderCompanion: MetricRecorderMoc
 }
 
 class MetricRecorderMockitoChangesImpl {
-    companion object: MetricRecorderMockitoChanges {
+    companion object : MetricRecorderMockitoChanges {
         override fun incrementMetric(key: String) {
             // TODO
         }

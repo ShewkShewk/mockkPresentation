@@ -4,8 +4,8 @@ class ContactConverter {
 
     fun extractContactInfo(contact: Contact): String {
         return "${contact.name} " +
-                "| ${contact.address.city}, ${contact.address.state} ${contact.address.zip} " +
-                "| ${contact.telephone}"
+            "| ${contact.address.city}, ${contact.address.state} ${contact.address.zip} " +
+            "| ${contact.telephone}"
     }
 }
 

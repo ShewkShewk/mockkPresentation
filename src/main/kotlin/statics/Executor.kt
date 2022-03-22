@@ -13,6 +13,4 @@ class Executor {
     }
 }
 
-data class ExecutionResult(val startTime: Instant?, val endTime:Instant?, val result: Int?) {
-
-}
+data class ExecutionResult(val startTime: Instant?, val endTime: Instant?, val result: Int?)

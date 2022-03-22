@@ -28,5 +28,4 @@ class EmbeddedMockkTest {
         }
         assertEquals("Javier | Dearborn, MI 48120 | 555-555-5555", subject.extractContactInfo(addressBookMock))
     }
-
 }

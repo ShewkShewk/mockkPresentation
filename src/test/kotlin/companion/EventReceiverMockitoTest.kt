@@ -16,5 +16,4 @@ class EventReceiverMockitoTest {
         subject.receiveEvent("Sample event")
         verify(mockCompanionObj).incrementMetric(EventReceiverMockitoChanges.EVENT_RECEIVED)
     }
-
 }
